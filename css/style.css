@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+#header-img{
+    width: 80%;
+    max-width: 400px;
+}
+#nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 13px;
+    transition: 0.3s;
+}
+#nav-bar ul li a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+#email{
+    max-width: 500px;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+#submit{
+    margin: 10px auto;
+    display: block;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+    padding: 8px 15px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+#submit:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#form{
+    margin: 40px auto;
+    height: 200px;
+    background-color: rgba(222, 241, 228, 0.849);
+    width: 95%;
+    padding: 25px 10px;
+}
+#form__h2{
+    text-align: center;
+}
+/* Iframe */
+#video{
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.article{
+    width: 88%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+.article h2{
+    margin-bottom: 15px;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(129, 207, 153);
+}
+#precios{
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.tarjeta{
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    height: 300px;
+}
+.tarjeta h3{
+    padding: 15px;
+     background-color: rgb(166, 223, 183);
+}
+.tarjeta__precio{
+    margin: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.tarjeta__content{
+    margin: 20px auto 30px; 
+}
+.tarjeta__content p{
+    margin-bottom: 8px;
+}
+.seleccion{
+    text-decoration: none;
+    color: rgb(42, 184, 84);
+    border: 1px solid rgb(75, 182, 107);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-weight: 800;
+}
+.seleccion:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(193, 221, 201);
+}
+footer{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(193, 221, 201);
+    text-align: end;
+    padding: 15px;
+
+}
+@media (min-width:800px){
+    #header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #nav-bar ul li a{
+        padding: 30px;
+        font-size: 20px;
+    }
+    #form{
+        height: 230px;
+    }
+    #form__h2{
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    #email{
+        max-width: 580px;
+        font-size: 18px;
+    }
+    #submit{
+        font-size: 18px;
+        padding: 9px 20px;
+        margin-top: 15px;
+    }
+    .article{
+        margin-bottom: 40px;
+    }
+    .icon{
+        font-size: 55px;
+        margin-right: 30px;
+    }
+    .article h2{
+        font-size: 30px;
+    }
+    .article p{
+        font-size: 23px;
+        line-height: 28px;
+    }
+    #video{
+        width: 900px;
+        height: 345px;
+    }
+    #precios{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .tarjeta{
+        height: 350px;
+    }
+    .tarjeta h3{
+        font-size: 22px;
+    }
+    .tarjeta__precio{
+        font-size: 35px;
+    }
+    .tarjeta__content{
+        font-size: 20px;
+    }
+    .seleccion{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 25px;
+        height: 100px;
+    }
+}
