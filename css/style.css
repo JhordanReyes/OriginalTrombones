@@ -23,6 +23,7 @@ html{
     max-width: 400px;
 }
 #nav-bar ul li{
+    font-family: 'Poppins', sans-serif;
     list-style: none;
     display: inline-block;
 }
@@ -66,6 +67,7 @@ html{
     padding: 25px 10px;
 }
 #form__h2{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 /* Iframe */
@@ -87,6 +89,7 @@ html{
 }
 .article h2{
     margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .icon{
     font-size: 30px;
@@ -108,13 +111,15 @@ html{
     height: 300px;
 }
 .tarjeta h3{
+    font-family: 'Poppins', sans-serif;
     padding: 15px;
-     background-color: rgb(166, 223, 183);
+    background-color: rgb(166, 223, 183);
 }
 .tarjeta__precio{
+    font-family: 'Poppins', sans-serif;
     margin: 15px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .tarjeta__content{
     margin: 20px auto 30px; 
@@ -150,8 +155,8 @@ footer{
         justify-content: space-between;
     }
     #nav-bar ul li a{
-        padding: 30px;
-        font-size: 20px;
+        padding: 18px 30px;
+        font-size: 25px;
     }
     #form{
         height: 230px;
