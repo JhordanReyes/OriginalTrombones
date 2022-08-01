@@ -128,6 +128,7 @@ html{
     margin-bottom: 8px;
 }
 .seleccion{
+    margin-bottom: 20px;
     text-decoration: none;
     color: rgb(42, 184, 84);
     border: 1px solid rgb(75, 182, 107);
@@ -212,7 +213,6 @@ footer{
     }
     .seleccion{
         font-size: 20px;
-        margin-bottom: 20px;
     }
     footer{
         font-size: 25px;
